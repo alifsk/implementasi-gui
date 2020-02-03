@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1 style="color: #0000FF; font-size: 50px">Calculator</h1>
     <Calculator/>
   </div>
 </template>
