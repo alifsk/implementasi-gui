@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <h1 style="color: #0000FF; font-size: 50px">Calculator</h1>
+    <Heading/>
     <Calculator/>
   </div>
 </template>
 
 <script>
+import Heading from './components/Heading.vue'
 import Calculator from './components/Calculator.vue'
 
 export default {
   name: 'app',
   components: {
+    Heading,
     Calculator
   }
 }
